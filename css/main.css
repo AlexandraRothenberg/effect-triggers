@@ -35,7 +35,20 @@ div {
 
   background-color: limegreen;
   opacity: 0;
-  transition: opacity .3s ease-in;
+}
+
+.box-trans {
+  opacity: 100;
+  transition: box .3s ease-in;
+}
+
+@keyframes box {
+  0% {
+    transition: opacity(0%);
+  }
+  100% {
+    transition: opacity(100%);
+  }
 }
 
 .diamond {
