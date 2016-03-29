@@ -35,6 +35,7 @@ div {
 
   background-color: limegreen;
   opacity: 0;
+  transition: opacity .3s ease-in;
 }
 
 .diamond {
